@@ -1,0 +1,14 @@
+{
+  "name": "err504monitor-cron",
+  "version": "1.0.0",
+  "description": "Monitor 504 errors from Mindfire",
+  "author": "Asa Jones <ajones@oneclearchoice.com>",
+  "scripts": {
+    "start": "node --harmony run.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@ccsm/mindfire": "^0.3.0",
+    "sendgrid": "^2.0.0"
+  }
+}
